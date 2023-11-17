@@ -17,7 +17,10 @@ if (formaPag === 1) {
 }  else {
     console.log('Valor a pagar: ' + parcela +  ' Parcelas de R$ ' + totalParcela.toFixed(2))
 }     
-
+ 
+const numero = 10;
+    const numeroEmTexto = '10';
+    console.log(numero === numeroEmTexto);
 
 //console.log(totalParcela.toFixed(2))
 
