@@ -33,6 +33,6 @@ function comparar(p1, p2) {
 }
 
 const daniel = new pessoa('Daniel', 44, 1.81)
-const rocha = new pessoa('Rocha', 46, 1.81)
+const rocha = new pessoa('Rocha', 44, 1.81)
 
 comparar(daniel, rocha)
