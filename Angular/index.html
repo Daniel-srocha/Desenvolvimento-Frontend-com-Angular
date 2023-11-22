@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Notícias</title>
     <link rel="stylesheet" href="assets/style.css">
-    <script src="assets/cardnews.js" defer></script>
-    <script src="assets/titulo.js"></script>
+    <script src="component/cardnews.js" defer></script>
+    <script src="component/titulo.js" defer></script>
 </head>
 <body>
     <div class="conteiner">
@@ -22,7 +22,15 @@
         </div>
 
     </div>
-    <card-news></card-news>
+        <card-news 
+        autor="Daniel Rocha "
+        title="Darth Vader Contrata!"
+        link-url="www.google.com"
+        photo="assets/img/darth.png"
+        content="Darth Vader procura devs que saibam trabalhar com componentes."
+    
+    >
+    </card-news>
     <titulo-dinamico></titulo-dinamico>
 </body>
 </html>
